@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white overflow-x-hidden;
+}
+
+.active {
+  @apply font-bold fill-white;
+}
+
+input {
+  @apply focus:outline-none outline-none border-none bg-transparent;
+}
+
